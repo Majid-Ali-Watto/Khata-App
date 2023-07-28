@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply border-none px-4 py-3 rounded font-bold m-5 text-slate-100;
+}
+.link {
+  @apply font-bold uppercase
+     text-slate-50 hover:bg-gray-300 hover:duration-200 hover:first-letter:text-2xl hover:py-5 hover:text-slate-900 w-4/12 justify-center items-center text-center;
+}
+.active {
+  @apply bg-gray-200 first-letter:text-2xl py-5 text-slate-900;
+}
